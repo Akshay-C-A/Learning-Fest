@@ -1,0 +1,11 @@
+div{
+        background-color: rgba(5, 78, 134, 0.711);
+        margin: 50px;
+        margin-left: 60px;
+        padding: 70px;
+        border: 20px solid black;
+}
+
+p{
+        margin-left: 10px;
+}
