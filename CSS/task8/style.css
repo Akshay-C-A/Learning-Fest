@@ -1,0 +1,11 @@
+h1{
+        background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        text-align: center;
+        width: 500px;
+}
+
+div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
