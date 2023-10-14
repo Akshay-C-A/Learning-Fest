@@ -1,18 +1,23 @@
 body{
         background-image: url(background.png);
-        background-position:center;
-        margin: 0%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .main{
         width:340px;
         height: 550px;
         background-color: white;
-        margin:auto;
+        margin-top: 15px;
+        opacity: 0.9;
 }
 
 h1{
         text-align: center;
         font-family: sans-serif;
+        margin:10px
 }
 
 form{
@@ -41,13 +46,18 @@ form label{
         
 }
 
-input[type="button"]{
+.register{
        margin-top: 12px;
        width:300px;
        padding:7px;
        background-color: #373B3E;
        color: #F1F1F1;
        margin-left: 20px;
+}
+
+.register:hover{
+        background-color: grey;
+        color: black;
 }
 
 
