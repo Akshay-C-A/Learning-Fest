@@ -1,0 +1,29 @@
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+}
+
+.div1{
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        gap: 50px;
+}
+
+.div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+}
+
+.div3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:50px
+}
+
