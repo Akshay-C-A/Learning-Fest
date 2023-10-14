@@ -1,0 +1,17 @@
+.div1{
+        width: 600px;
+        border: 2.5px solid red;
+        text-align: center;
+        margin: 50px;
+        border-radius: 20px;
+}
+
+.div2{
+        width: 600px;
+        border: 2.5px solid red;
+        text-align: center;
+        margin: 50px;
+        border-radius: 20px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+}       
