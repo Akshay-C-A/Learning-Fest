@@ -5,13 +5,15 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        backdrop-filter: blur(3px);
+        padding-top: 30px;
 }
 .main{
         width:340px;
         height: 550px;
         background-color: white;
         margin-top: 15px;
-        opacity: 0.9;
+        opacity: 10px;
 }
 
 h1{
@@ -56,8 +58,8 @@ form label{
 }
 
 .register:hover{
-        background-color: grey;
-        color: black;
+        background-color: black;
+        color: white;
 }
 
 
