@@ -1,0 +1,17 @@
+.container{
+        width: 480px;
+        height: 580px;
+        border: 1px solid #d4d9df;
+}
+
+.form-group{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.btn{
+        background-color: #c3d4dc;
+        color: black;
+        border-color: #c3d4dc;
+}
