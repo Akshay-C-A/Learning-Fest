@@ -1,0 +1,27 @@
+.navbar{
+        background-color: rgb(222,243,253);
+}
+
+#forms{
+        width: auto;
+        height: auto;
+        border: 1px solid #d4d9df;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.form-group{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+#bttn{
+        background-color: #c3d4dc;
+        color: black;
+        border-color: #c3d4dc;
+}
+
+#carousel{
+        margin-top:66px;
+}
