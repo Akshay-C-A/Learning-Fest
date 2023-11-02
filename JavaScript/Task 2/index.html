@@ -16,8 +16,11 @@
         <h2 id="output"></h2>
 
         <script>
-                function onclick(){
-                        
+                function sum(){
+                        var num1 = document.getElementById("input1").value;
+                        var num2 = document.getElementById("input2").value;
+                        var sum = parseInt(num1) + parseInt(num2);
+                        document.getElementById("output").innerHTML = sum;
                 }
         </script>
 </body>
