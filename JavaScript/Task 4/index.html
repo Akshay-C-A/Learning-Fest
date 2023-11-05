@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 4</title>
+        <style>
+                body {
+                        background-color: #f2f2f2;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        flex-direction:column;
+                        height:90vh;
+                }
+
+                form{
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        flex-direction:column;
+                        width:300px;
+                        height:300px;
+                        background-color: #474854;
+                        border: 1px solid #474854;
+                        border-radius: 50px;
+                        padding: 20px;
+                }
+        </style>
+</head>
+<body>
+        <form onsubmit="return validate()" action="message.html">
+                <input type="text" name="uname" id="uname" placeholder="Username">
+                <br><br>
+                <input type="password" name="pass" id="pass" placeholder="Password">
+                <br><br>
+                <button type="submit">Submit</button>
+        </form>
+
+        <script>
+                function validate() {
+                        var uname = document.getElementById("uname").value.trim();
+                        var pass = document.getElementById("pass").value.trim();
+                        if(uname=="" || pass=="")
+                        {
+                                alert("No blank username or password");
+                                return false;
+                        }
+                        else{
+                                return true;
+                        }
+                }
+        </script>
+</body>
+</html>
