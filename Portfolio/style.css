@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.one{
+    background: black;
+    background-color: black;
+    z-index: 99;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0) !important;
+    border-bottom: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px !important; 
+    color: #fff !important;
+}
+
+.navbar-nav.nav-link:hover {
+    color: #fff;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills{
+    background-color: black;
+}
+
+.card-body{
+    background-color: black;
+}
+
+img.card-img-top{
+    background-color: black !important;
+    width:200px !important;
+    height:200px!important;
+}
+
+p.card-text{
+    color: #fff;
+    text-align: center;
+}
+
+#myimage{
+    border-radius: 50% !important;
+    border-color:#fff;
+    border: solid;
+    height: 20rem !important;
+    width: 20rem!important;
+    object-fit: scale-down;
+    background-color:#212121 ;
+}
+
+#aboutme{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#contactme{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#myskills{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.card{
+    width: 200px !important;
+    height: 300px!important;
+}
+
+div.col-12.col-xl-3{
+    display:flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+#contactme{
+    width: 100% ;
+    padding-right: 0 !important;
+    padding-left: 0!important;
+}
+
+.logos{
+    padding:0;
+    width: 100% !important;
+
+}
